@@ -12,6 +12,7 @@ public class SampleTest extends BaseClass {
 	{
 		System.out.println("run success");
 		Assert.assertEquals("A", "B");
+		System.out.println("hiii");
 	}
 
 }
