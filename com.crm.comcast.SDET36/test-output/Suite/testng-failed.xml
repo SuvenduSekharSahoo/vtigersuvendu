@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="3" name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.comcast.OrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createOrganizationTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="mandatoryFields"/>
+        </methods>
+      </class> <!-- com.crm.comcast.OrganizationTest.CreateOrganizationTest -->
+      <class name="com.crm.comcast.ContactTest.DeleteContactTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createContactTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="deleteContactsTest"/>
+          <include name="loginapp"/>
+        </methods>
+      </class> <!-- com.crm.comcast.ContactTest.DeleteContactTest -->
+      <class name="com.crm.comcast.DocumentsTest.CreateDocumentsTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="createDocumentsTest"/>
+        </methods>
+      </class> <!-- com.crm.comcast.DocumentsTest.CreateDocumentsTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="3" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.comcast.OrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createOrganizationTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="mandatoryFields"/>
+        </methods>
+      </class> <!-- com.crm.comcast.OrganizationTest.CreateOrganizationTest -->
+      <class name="com.crm.comcast.ContactTest.DeleteContactTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createContactTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="deleteContactsTest"/>
+          <include name="loginapp"/>
+        </methods>
+      </class> <!-- com.crm.comcast.ContactTest.DeleteContactTest -->
+      <class name="com.crm.comcast.DocumentsTest.CreateDocumentsTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="createDocumentsTest"/>
+        </methods>
+      </class> <!-- com.crm.comcast.DocumentsTest.CreateDocumentsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="3" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.crm.comcast.OrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createOrganizationTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="mandatoryFields"/>
+        </methods>
+      </class> <!-- com.crm.comcast.OrganizationTest.CreateOrganizationTest -->
+      <class name="com.crm.comcast.ContactTest.DeleteContactTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="createContactTest"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="deleteContactsTest"/>
+          <include name="loginapp"/>
+        </methods>
+      </class> <!-- com.crm.comcast.ContactTest.DeleteContactTest -->
+      <class name="com.crm.comcast.DocumentsTest.CreateDocumentsTest">
+        <methods>
+          <include name="configAS"/>
+          <include name="launchBrowser"/>
+          <include name="logoutApp"/>
+          <include name="closeBrowser"/>
+          <include name="configBS"/>
+          <include name="loginapp"/>
+          <include name="createDocumentsTest"/>
+        </methods>
+      </class> <!-- com.crm.comcast.DocumentsTest.CreateDocumentsTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
